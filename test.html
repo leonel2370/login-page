@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="test.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="contener">
+        <form action="#">
+        <h1>Register with Us</h1>
+            <div id="element1">
+                <label for="name">Username</label>
+                <input type="text" id="name" placeholder="Enter Username">
+                <p id="namehide">Username must be at least 3 characters</p>
+            </div>
+            <div id="element1">
+                <label for="mail">Email</label>
+                <input type="email" id="mail" placeholder="Enter Email">
+                <p id="mailhide">Email is not valid</p>
+            </div>
+            <div id="element1">
+                <label for="pwd">Password</label>
+                <input type="password" id="pwd" placeholder="Enter Password">
+                <p id="pwdhide">Password must be at least 6 characters</p>
+            </div>
+            <div id="element1">
+                <label for="cpwd">Confirm Password</label>
+                <input type="password" id="cpwd" placeholder="Enter Password again">
+                <p id="cpwdhide">Password2 require</p>
+            </div>
+            <input type="submit" value="submit" id="soumis">
+        </form>
+    </div>
+
+    <script src="test.js"></script>
+</body>
+</html>
