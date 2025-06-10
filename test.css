@@ -4,7 +4,6 @@
   box-sizing: border-box;
   font-family: "Roboto";
 }
-
 .main{
   background-color: #fff;
   width: 420px;
@@ -48,7 +47,6 @@ input[type="submit"]{
 input[type="submit"]:hover{
   background-color: rgb(0,114, 193,255);
 }
-
 
 .input-control input:focus {
     outline: 0;
